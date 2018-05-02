@@ -13,17 +13,14 @@
 
 #### CDN
 
-` <!-- Load TensorFlow.js -->
-
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.10.0"> </script>
-
-`
+`<!-- Load TensorFlow.js -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.10.0"> </script>`
 
 #### use
 
 HTML code
-`<html>
-
+`
+<html>
   <head>
     <!-- Load TensorFlow.js -->
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.10.0"> </script>
@@ -56,7 +53,8 @@ HTML code
 
   <body>
   </body>
-</html>`
+</html>
+`
 
 ### npm, yarn
 
@@ -67,8 +65,7 @@ HTML code
 #### use
 
 in main.js file
-`
-import \* as tf from '@tensorflow/tfjs';
+`import \* as tf from '@tensorflow/tfjs';
 
 // Define a model for linear regression.
 const model = tf.sequential();
@@ -87,3 +84,5 @@ model.fit(xs, ys).then(() => {
 model.predict(tf.tensor2d([5], [1, 1])).print();
 });
 `
+### Documentation 
+https://js.tensorflow.org
