@@ -1,5 +1,7 @@
 ## tensorflow.js
 
+`#MakeJavascriptGreateAgain`
+
 * Python was considered the best programming language for machine learning and AI stuff.
 * Though we can still do it in other programming language Python was considered best for it's ease and devloper community.
 * javaScript is considered most popular language for over two decades as it rules the web.
@@ -65,7 +67,7 @@ HTML code
 #### use
 
 in main.js file
-`{js}
+```{js}
 import \* as tf from '@tensorflow/tfjs';
 
 // Define a model for linear regression.
@@ -83,6 +85,7 @@ const ys = tf.tensor2d([1, 3, 5, 7], [4, 1]);
 model.fit(xs, ys).then(() => {
 // Use the model to do inference on a data point the model hasn't seen before:
 model.predict(tf.tensor2d([5], [1, 1])).print();
-});`
+});
+```
 ### Documentation 
 https://js.tensorflow.org
