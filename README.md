@@ -3,8 +3,8 @@
 `#MakeJavascriptGreateAgain`
 
 * Python was considered the best programming language for machine learning and AI stuff.
-* Though we can still do it in other programming language Python was considered best for it's ease and devloper community.
-* javaScript is considered most popular language for over two decades as it rules the web.
+* Though we can still do it in other programming language Python was preffered for it's ease and devloper community.
+* javaScript is considered the most popular language for over two decades as it rules the web.
 
 - Google's tensorflow was one of the best resourse held by Python.
 - Recently tensorflow team released a javaScript version.
